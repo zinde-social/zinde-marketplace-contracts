@@ -1111,13 +1111,6 @@
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.8.1.tgz#709cfc4bbb3ca9f4460d60101f15dac6b7a2d5e4"
   integrity sha512-xQ6eUZl+RDyb/FiZe1h+U7qr/f4p/SrTSQcTPH2bjur3C5DbuW/zFgCU/b1P/xcIaEqJep+9ju4xDRi3rmChdQ==
 
-"@primitivefi/hardhat-dodoc@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@primitivefi/hardhat-dodoc/-/hardhat-dodoc-0.2.3.tgz#76aebbfa70de2d6454af29e166b1430583b54c5c"
-  integrity sha512-ver9uHa79LTDTeebOKZ/eOVRL/FP1k0s0x/5Bo/8ZaDdLWFVClKqZyZYVjjW4CJqTPCt8uU9b9p71P2vzH4O9A==
-  dependencies:
-    squirrelly "^8.0.8"
-
 "@resolver-engine/core@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@resolver-engine/core/-/core-0.3.3.tgz#590f77d85d45bc7ecc4e06c654f41345db6ca967"
@@ -1307,9 +1300,9 @@
     ts-essentials "^7.0.1"
 
 "@typechain/hardhat@^6.1.5":
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/@typechain/hardhat/-/hardhat-6.1.5.tgz#caad58a1d3e9cd88061a584eb4f4fa763d5dcad1"
-  integrity sha512-lg7LW4qDZpxFMknp3Xool61Fg6Lays8F8TXdFGBG+MxyYcYU5795P1U2XdStuzGq9S2Dzdgh+1jGww9wvZ6r4Q==
+  version "6.1.6"
+  resolved "https://registry.yarnpkg.com/@typechain/hardhat/-/hardhat-6.1.6.tgz#1a749eb35e5054c80df531cf440819cb347c62ea"
+  integrity sha512-BiVnegSs+ZHVymyidtK472syodx1sXYlYJJixZfRstHVGYTi8V1O7QG4nsjyb0PC/LORcq7sfBUcHto1y6UgJA==
   dependencies:
     fs-extra "^9.1.0"
 
@@ -4893,10 +4886,15 @@ got@^7.1.0:
     url-parse-lax "^1.0.0"
     url-to-options "^1.0.1"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9, graceful-fs@^4.2.0:
+graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.9:
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
+
+graceful-fs@^4.1.6, graceful-fs@^4.2.0:
+  version "4.2.11"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
+  integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
 growl@1.10.5:
   version "1.10.5"
@@ -8294,11 +8292,6 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
-
-squirrelly@^8.0.8:
-  version "8.0.8"
-  resolved "https://registry.yarnpkg.com/squirrelly/-/squirrelly-8.0.8.tgz#d6704650b2170b8040d5de5bff9fa69cb62b5e0f"
-  integrity sha512-7dyZJ9Gw86MmH0dYLiESsjGOTj6KG8IWToTaqBuB6LwPI+hyNb6mbQaZwrfnAQ4cMDnSWMUvX/zAYDLTSWLk/w==
 
 sshpk@^1.7.0:
   version "1.17.0"
